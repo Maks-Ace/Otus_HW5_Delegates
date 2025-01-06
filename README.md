@@ -20,4 +20,4 @@ public static T GetMax(this IEnumerable collection, Func<T, float> convertToNumb
 2. Класс в файле **FileFinder.cs**. Тестирование на папке **FolderWithTestFiles** в  корне репозитория.
 3. Событие **FileFound**, расширение EventArgs в файле **FileArgs.cs**
 4. Отмена поиска реализована через стандартное событие консоли **CancelKeyPress**. При нажатии **ctrl + C** поиск останавливается, вывоидтся сообщение и консоль не закрыватеся.
-5. Все нужные соощение выводятся в консоль
+5. Все нужные сообщение выводятся в консоль.
